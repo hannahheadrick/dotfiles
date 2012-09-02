@@ -5,6 +5,7 @@ DISABLE_LS_COLORS="true"
 
 plugins=(git bundler brew gem rbates)
 
+export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export EDITOR="subl -w"
