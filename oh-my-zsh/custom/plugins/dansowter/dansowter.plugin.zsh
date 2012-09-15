@@ -6,6 +6,10 @@ h() { cd ~/$1; }
 _h() { _files -W ~/ -/; }
 compdef _h h
 
+n() { cd ~/netengine/$1; }
+_n() { _files -W ~/netengine -/; }
+compdef _n n
+
 export EDITOR='subl -w'
 
 # autocorrect is more annoying than helpful
