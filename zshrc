@@ -5,6 +5,7 @@ plugins=(git gem rails ruby brew history-substring-search rbenv bundler dansowte
 
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/lib/node_modules:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
 export EDITOR="subl3 -w"
