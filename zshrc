@@ -22,5 +22,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 alias gti="git"
 alias lg="git lg"
 alias s="subl3 ."
-alias sling="slanger --app_key 'slanger_development_key' --secret 'slanger_development_secret'"
+alias l='ls -alrth'
 alias clean_branches="\"git fetch origin --prune\" && \"git branch --merged master | grep -v 'master$' | xargs git branch -d\""
